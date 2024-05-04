@@ -82,7 +82,7 @@
         const headerScrolled = () => {
             if (window.scrollY > 20) {
                 selectHeader.classList.add('header-scrolled')
-                logo_nav.src = "assets/img/logo-folder/Chemical-core-logo-white.svg"
+                logo_nav.src = "assets/img/logo-folder/Chemical-core-logo-yello-white.svg"
             } else {
                 selectHeader.classList.remove('header-scrolled')
                 logo_nav.src = "assets/img/logo-folder/logo_white.svg"
