@@ -76,12 +76,17 @@
      * Toggle .header-scrolled class to #header when page is scrolled
      */
     let selectHeader = select('#header')
+    let logo_nav = document.querySelector(".logo_nav img")
+
     if (selectHeader) {
         const headerScrolled = () => {
             if (window.scrollY > 20) {
                 selectHeader.classList.add('header-scrolled')
+                logo_nav.src = "assets/img/logo-folder/Chemical-core-logo-white.svg"
             } else {
                 selectHeader.classList.remove('header-scrolled')
+                logo_nav.src = "assets/img/logo-folder/logo_white.svg"
+
             }
         }
         window.addEventListener('load', headerScrolled)
