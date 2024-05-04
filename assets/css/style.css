@@ -29,7 +29,9 @@ ul {
   ::-webkit-scrollbar-thumb:hover {
     background: var(--main-color);
   }
-
+.special {
+    color:var(--main-color) !important
+}
 body {
     font-family: "Almarai", sans-serif;
     color: #393939;
@@ -887,6 +889,8 @@ section {
 }
 
 .testimonials img {
+    aspect-ratio: 1/0.5;
+    object-fit: cover;
     width: 15rem;
 }
 
@@ -1126,10 +1130,18 @@ section {
     background-size: cover;
     padding: 120px 0;
 }
+.cta2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/cover-section.webp") fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.cta2 h3 {
+    color:white
+}
 
 .cta h3 {
     color: #fff;
-    font-size: 45px;
+    font-size: 38px;
     font-weight: 400 !important;
     margin-bottom: 20px;
 }
