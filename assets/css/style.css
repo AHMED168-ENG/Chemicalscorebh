@@ -526,11 +526,12 @@ a:hover {
 #bg-video {
     position: absolute;
     min-width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     max-width: 100%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     object-fit: cover;
     z-index: -1;
+    height:100%
 }
 
 #hero .container {
@@ -891,7 +892,7 @@ section {
 .testimonials img {
     aspect-ratio: 1/0.5;
     object-fit: cover;
-    width: 15rem;
+    width: 100%;
 }
 
 /*--------------------------------------------------------------

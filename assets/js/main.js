@@ -260,7 +260,7 @@
             },
 
             1200: {
-                slidesPerView: 4,
+                slidesPerView: 6,
                 spaceBetween: 20
             }
         }
